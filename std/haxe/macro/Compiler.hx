@@ -397,7 +397,7 @@ class Compiler {
 	}
 
 	/**
-		Register a custom medatada for documentation and completion purposes
+		Register a custom metadata for documentation and completion purposes
 	**/
 	public static function registerCustomMetadata(meta:MetadataDescription, ?source:String):Void {
 		#if (neko || eval)
