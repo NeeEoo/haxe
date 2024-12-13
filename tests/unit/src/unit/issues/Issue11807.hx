@@ -8,6 +8,6 @@ class Issue11807 extends Test {
 			test = {type: 5};
 		} while (test.type != 5);
 
-		utest.Assert.pass();
+		eq(5, test.type);
 	}
 }
